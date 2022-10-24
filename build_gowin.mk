@@ -3,10 +3,10 @@
 # This file is included from the project directory. 
 # Please note that the relative path is based on the project directory, not the directory which contains this file.
 
-TARGET ?= tangnano1k
+TARGET ?= tangnano9k
 BITSTREAM := build/$(TARGET)/impl/pnr/$(PROJECT_NAME).fs
 SRC_DIR := $(abspath src/$(TARGET))
-RTL_DIR := $(abspath ../../rtl)
+RTL_DIR := $(abspath ../rtl)
 
 include ../targets/$(TARGET)/target.mk
 

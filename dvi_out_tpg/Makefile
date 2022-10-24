@@ -1,7 +1,7 @@
 PROJECT_NAME := dvi_out_tpg
 
 TARGET ?= tangnano9k
-ROOT_DIR ?= $(abspath ../..)
+ROOT_DIR ?= $(abspath ..)
 RTL_DIR ?= $(ROOT_DIR)/rtl
 
 PROJECT_ADDITIONAL_ARGS := $(abspath src/cq_logo.hex)
