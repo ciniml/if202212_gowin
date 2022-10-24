@@ -1,0 +1,4 @@
+*/build/*
+!*/build/*/impl/project_process_config.json
+*/*.gprj.user
+temp

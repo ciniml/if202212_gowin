@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Sep 21 17:53:21 2022
+# Process ID: 188379
+# Current directory: /home/kenta/repos/fpga_samples/eda/dvi_out_tpg
+# Command line: vivado
+# Log file: /home/kenta/repos/fpga_samples/eda/dvi_out_tpg/vivado.log
+# Journal file: /home/kenta/repos/fpga_samples/eda/dvi_out_tpg/vivado.jou
+# Running On: prometheus, OS: Linux, CPU Frequency: 3800.000 MHz, CPU Physical cores: 24, Host memory: 101182 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/kenta/axu5ev/repos/vivado/axu5ev_xg_frac/project/axu5ev_xg.xpr
+INFO: [Project 1-313] Project file moved from '/home/kenta/axu5ev/repos/vivado/axu5ev_xg/project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/kenta/axu5ev/repos/vivado/axu5ev_xg_frac/gt_10gbe_125m'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/kenta/axu5ev/repos/vivado/axu5ev_xg_frac/gt_common_pcie_10gbe'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/kenta/axu5ev/repos/external'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 7807.293 ; gain = 155.172 ; free physical = 76642 ; free virtual = 90803
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 21 17:54:48 2022...
