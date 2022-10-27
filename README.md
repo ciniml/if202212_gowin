@@ -9,7 +9,7 @@
 ```
 .
 ├── build_gowin.mk  // 共通ビルドスクリプト
-├── cpu_matrix_led  // 第3章のソースコード
+├── cpu_matrix_led  // 第4章のソースコード
 │   ├── Makefile
 │   ├── project.tcl
 │   └── src
@@ -22,7 +22,7 @@
 │           ├── pins.cst
 │           ├── timing.sdc
 │           └── top.sv                // トップレベルモジュール
-├── dvi_out_tpg     // 第4章のソースコード
+├── dvi_out_tpg     // 第3章のソースコード
 │   ├── Makefile
 │   ├── project.tcl
 │   ├── README.md
